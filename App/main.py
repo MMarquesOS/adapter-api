@@ -1,3 +1,6 @@
+# Criando um registrador de usuarios/e-mails
+# Banco de dados stateless
+
 banco_de_dados = {}
 
 # TODO: crie uma função que peça nome, sobrenome, email, senha, confirmar senha
@@ -18,6 +21,7 @@ def set_usuarios():
     banco_de_dados['E-mail'] = email
     banco_de_dados['Senha'] = senha
     banco_de_dados['Confirmar senha: '] = confirmar_senha
+
 
 print(set_usuarios())
 print(banco_de_dados)
